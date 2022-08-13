@@ -1,0 +1,48 @@
+p {
+    color: blue;
+    background-color: red;
+    text-align: center;
+    text-decoration: underline;
+    font-family: monospace;
+
+    line-height: 5px; /* tamanho da altura de cada linha */
+  letter-spacing: 10px; /* tamanho do espaço entre cada letra */
+  word-spacing: 5px; /* tamanho do espaço entre cada palavra */
+  text-indent: 30px; /* tamanho da margem da primeira linha do texto */
+
+  height: 10px;
+  width: 30px;
+  padding: 10px 20px 15px;
+  margin: 19 auto;
+
+  }
+
+h1 {
+    font-family: serif;
+    background-image: url(https://i.imgur.com/uAhjMNd.jpg);
+    border-top: 1px solid red; /* borda vermelha em cima */
+  border-right: 1px solid red; /* borda vermelha à direita */
+  border-bottom: 1px solid red; /* borda vermelha embaixo */
+  border-left: 1px solid red; /* borda vermelha à esquerda */
+
+}
+
+h2{
+    font-family: sans-serif;
+}
+
+body {
+    font-family: "Helvetica", "Lucida Grande", sans-serif;
+    border: 1px solid blue;
+}
+
+
+ul {
+  /* alterar para circulo antes de cada <li> da lista não-ordenada */
+  list-style-type: circle;
+}
+
+ol {
+  /* alterar para uma sequência alfabética antes de cada <li> da lista ordenada */
+  list-style-type: upper-alpha;
+}
