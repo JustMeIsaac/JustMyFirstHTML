@@ -1,0 +1,300 @@
+* {
+	margin: 0px;
+	padding: 0px;
+}
+
+body {
+	padding: 10px 0px 10px;
+	background-color: #1f1a1a;
+	color: #fff;
+	font-family: verdana, arial, sans-serif;
+	font-size: 12px;
+	text-align: justify;
+}
+
+a {
+	color: #fff;
+	background-color: inherit;
+	text-decoration: underline;
+}
+
+a:hover {
+	color: #e1d9a7;
+	background-color: inherit;
+}
+
+span {
+	display: none;
+}
+
+img {
+	border: none;
+}
+
+ul {
+	list-style-type: none;
+}
+
+li {
+	list-style-type: none;
+}
+
+p {
+	margin: 6px 0px 15px;
+	text-align: justify;
+	line-height: 14px;
+}
+
+.clearthis {
+	margin : 0px;
+	height : 1px;
+	clear : both;
+	float : none;
+	font-size : 1px;
+	line-height : 0px;
+	overflow : hidden;
+	visibility: hidden;
+}
+
+
+#body_wrapper {
+	margin: 0px auto;
+	padding: 2px 0px;
+	width: 777px;
+	background-color: #000000;
+	color: inherit;
+	text-align: left;
+}
+
+.add_shadow {
+	float: left;
+	background: url('images/shadow_bot.gif') no-repeat 0% 100%;
+}
+
+.add_shadow div {
+	display: block;
+	float: left;
+	background: url('images/shadow_right.gif') no-repeat 100% 0%;
+}
+
+.add_shadow div div {
+	display: block;
+	float: none;
+	padding: 0px 5px 5px 0px;
+	background: url('images/shadow_rightbot.gif') no-repeat 100% 100%;
+}
+
+.add_shadow div div div {
+	padding: 0px;
+	background: none;
+}
+
+
+/* Company Logo */
+
+#company_header {
+	margin: 45px 10px;
+	z-index: 1;
+	position: absolute;
+}
+
+#company_logo {
+	padding: 3px;
+	background: url('images/company_poster.gif') #fff no-repeat 3px 3px;
+	color: #000;
+}
+
+#company_logo h1 {
+	display: block;
+	background: url('images/company_logo.gif') no-repeat 50% 3px;
+	width: 368px;
+	height: 368px;
+}
+
+#company_logo h1 span {
+	display: none;
+}
+
+
+/* Navigational Menu */
+
+#nav_menu {
+	margin: 0px 2px;
+	width: 773px;
+	background-color: #000000;
+	color: #000000;
+	border-bottom: #000000 2px solid;
+	font-family: arial, sans-serif;
+	font-weight: bold;
+	letter-spacing: 1px;
+	text-transform: uppercase;
+	text-align: justfy;
+}
+
+#nav_menu ul {
+	margin-left: 130px;
+	width: 630px;
+	height: 27px;
+	overflow: hidden;
+}
+
+/*imagem principal */
+#nav_menu li {
+	padding: 5px 110px 5px 90px;
+	background: url('images/navmenu_div.gif') no-repeat 100% 7px;
+	float: left;
+}
+
+#nav_menu li#last {
+	padding-right: 10px;
+	background-image: none;
+}
+
+#nav_menu a {
+	text-decoration: none;
+}
+
+
+
+/* Content Body */
+
+#content_body {
+	margin: 0px 2px;
+	padding: 17px 12px 15px 15px;
+	background-color: #dddacc;
+	border-bottom: #000000 2px solid;
+	color: #000000;
+	text-align: left;
+}
+
+#content_body a {
+	background-color: inherit;
+	color: #000000;
+}
+
+#content_body a:hover {
+	background-color: #000000;
+	color: #000000;
+}
+
+#content_body .content_header2 {
+	display: block;
+	border: #000 2px solid;
+}
+
+#content_body .content_header h2 {
+	padding: 3px 0px;
+	font-size: 14px;
+	font-weight: bold;
+	text-align: center;
+	text-transform: uppercase;
+}
+
+#content_body .content_box {
+	padding: 10px 15px 20px 6px;
+	clear: both;
+	float: none;
+}
+
+
+/* Left Column */
+
+#left_column {
+	margin-left: 5px;
+	margin-top: 395px;
+	width: 365px;
+	float: left;
+}
+
+#left_column .content_header {
+	padding-bottom: 45px;
+}
+
+#left_column .content_header h2 {
+	width: 351px;
+	background-color: #000000;
+	color: #ffffff;
+}
+
+
+/* Right Column */
+
+#right_column {
+	width: 353px;
+	float: right;
+}
+
+#right_column .content_header h2 {
+	width: 348px;
+	background-color: #000000;
+	color: #fff;
+}
+
+
+/* Travel Gallery */
+
+#travelgallery {
+	padding-bottom: 5px;
+	float: none;
+	clear: both;
+	text-align: center;
+}
+
+.gallery_thumbnail {
+	float: left;
+	padding: 5px 5px 0px 0px;
+}
+
+.gallery_thumbnail .add_shadow {
+	background-color: #000;
+	color: #fff;
+}
+
+.gallery_thumbnail .add_shadow div div {
+	padding-bottom: 3px;
+}
+
+.gallery_thumbnail .add_shadow img {
+	margin: 1px;
+}
+
+#travelgallery .view_all {
+	margin: 15px auto 0px;
+	width: 154px;
+	height: 26px;
+	float: none;
+	clear: both;
+}
+
+#travelgallery .view_all a {
+	padding: 3px 5px;
+	border: #000 1px solid;
+	background-color: #000000;
+	color: #fff;
+	display: block;
+	font-weight: bold;
+	font-family: arial, sans-serif;
+	letter-spacing: 1px;
+	text-decoration: none;
+	text-transform: uppercase;
+	text-align: center;
+}
+
+#travelgallery .view_all a:hover {
+	background-color: #000000;
+	color: #fff;
+}
+
+
+/* Page Footer */
+
+#page_footer {
+	margin: 0px 2px;
+	padding: 7px 0px;
+	width: 773px;
+	background-color: #000000;
+	color: inherit;
+	font-size: 11px;
+	font-weight: bold;
+	text-align: center;
+}
